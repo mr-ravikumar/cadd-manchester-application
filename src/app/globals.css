@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inter Font */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Akkurat Font */
+@font-face {
+  font-family: 'Akkurat';
+  src: url('/fonts/Akkurat-Regular.woff2') format('woff2'), 
+       url('/fonts/Akkurat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply Akkurat Font to card text */
+.card-text {
+  font-family: 'Akkurat', sans-serif;
+}
+
+/* You can also add some base styling to apply Inter globally */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-in-out;
+}

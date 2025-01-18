@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Web Development",
+      "description": "Learn to build websites and web applications using HTML, CSS, JavaScript, and React.",
+      "duration": "6 months",
+      "price": "₹20,000"
+    },
+    {
+      "id": 2,
+      "name": "Data Science",
+      "description": "Master data analysis, machine learning, and data visualization using Python, R, and SQL.",
+      "duration": "6 months",
+      "price": "₹25,000"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing",
+      "description": "Learn SEO, SEM, content marketing, and social media strategies to grow businesses online.",
+      "duration": "4 months",
+      "price": "₹15,000"
+    },
+    {
+      "id": 4,
+      "name": "Graphic Design",
+      "description": "Learn to design visual content using tools like Adobe Photoshop, Illustrator, and InDesign.",
+      "duration": "5 months",
+      "price": "₹18,000"
+    }
+  ]
+  
